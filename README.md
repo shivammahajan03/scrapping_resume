@@ -33,7 +33,7 @@ pip install pandas openai pymupdf python-docx
 1. **Clone the Repository**: Clone the project repository from GitHub to your local machine.
 
     ```bash
-    git clone https://github.com/your_username/resume_scrapper.git
+    git clone https://github.com/your_username/scrapping_resume.git
     cd resume_scrapper
     ```
 
