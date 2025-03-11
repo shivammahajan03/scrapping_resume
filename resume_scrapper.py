@@ -65,7 +65,7 @@ def extract_text_from_docx(docx_path):
 
 
 # Define the folder path where your resumes are stored
-folder_path = 'C:/Users/shiva/Desktop/IITJ/For Darshan/downloaded_pdfs'
+folder_path = 'Your Folder path'
 
 # List to store literals for each extracted text
 literals = []
@@ -96,7 +96,7 @@ for s in literals:
     dfs.append(my_dict)
 
 final_df = pd.DataFrame(dfs)
-csv_file_path = 'final_extract_v1.csv'
+csv_file_path = 'final_extract.csv'
 
 if not os.path.exists(csv_file_path):
     # Create the CSV file if it doesn't exist
